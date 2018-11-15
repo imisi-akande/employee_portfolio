@@ -9,8 +9,8 @@ urlpatterns = {
     url(r'^departments/$', CreateView.as_view(), name="create"),
     url(r'^departments/(?P<pk>[0-9]+)/$',
         DetailsView.as_view(), name="details"),
-    url(r'^users/$', UserView.as_view(), name="users"),
-    url(r'users/(?P<pk>[0-9]+)/$',
+    url(r'^employers/$', UserView.as_view(), name="users"),
+    url(r'employers/(?P<pk>[0-9]+)/$',
         UserDetailsView.as_view(), name="user_details"),
     url(r'^fetch_token/', obtain_auth_token),        
 }
