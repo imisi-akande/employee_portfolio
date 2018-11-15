@@ -3,15 +3,22 @@
 In this repository I created an employee portfolio API. This can help employers to manage their employees profile.
 This API should therefore help employers to create and manage employees information.
 
-The API should have the ability to:
+The API have the ability to:
 
-Create a Department
-Retrieve a Department
-Update a Department
-And, Delete Department(CRUD)
-Authentication of API Users
-Searching Departments
-Adding employees to the department
+> Create a Department
+
+> Retrieve a Department
+
+> Update a Department
+
+> And, Delete Department(CRUD)
+
+> Authentication of API Users
+
+> Searching Departments
+
+> Adding employees to the department
+
 
 ## Run the Notebook
 
