@@ -24,8 +24,6 @@ class DetailsView(generics.RetrieveUpdateDestroyAPIView):
 
     queryset = Department.objects.all()
     serializer_class = DepartmentSerializer  
-    filter_backends = (filters.SearchFilter,)
-    search_fields = ('firstname', 'department')
     permission_classes = (permissions.IsAuthenticated, IsEmployer)      
 
 

@@ -11,7 +11,7 @@ class Department(models.Model):
     firstname = models.CharField(max_length=55, blank=False)
     lastname = models.CharField(max_length=55, blank=False)
     email = models.EmailField(max_length=70,blank=False, unique= True)
-    description = models.CharField(max_length=255, blank=False, unique= True)
+    description = models.CharField(max_length=255, blank=False)
     employer = models.ForeignKey('auth.User', 
             related_name='departments',
             on_delete=models.CASCADE)  
