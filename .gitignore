@@ -1,0 +1,16 @@
+# dotenv
+.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+db.sqlite3
+
+# virtualenv
+.venv
+venv/
+ENV/
+#DS_Store
+*.DS_Store
