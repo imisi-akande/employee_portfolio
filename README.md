@@ -35,7 +35,10 @@ source envname/bin/activate
 
 #### To Run: 
 > cd into employee_portfolio.
+
 > run python manage.py migrate
+
 > python manage.py createsuperuser  - To create users
+
 > python manage.py runserver   - To run the app
 
